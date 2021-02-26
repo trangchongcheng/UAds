@@ -9,7 +9,7 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
 import com.google.android.gms.ads.doubleclick.PublisherAdView;
 
-class UAds{
+public class UAds{
     public static PublisherAdView createBanner(Context context, String size){
         PublisherAdView adView = new PublisherAdView(context);
         adView.setAdSizes(AdSize.LEADERBOARD);
