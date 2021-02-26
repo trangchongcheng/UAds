@@ -1,0 +1,3 @@
+include ':uconnect'
+include ':app'
+rootProject.name = "UAds"
